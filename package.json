@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt dev",
-    "build": "nuxt build",
+    "build": "cp node_modules/.prisma/client/package.json node_modules/.prisma && nuxt build",
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
@@ -10,6 +10,7 @@
     "prisma": "^3.4.1"
   },
   "dependencies": {
-    "@prisma/client": "^3.4.1"
+    "@prisma/client": "^3.4.1",
+    "@vueuse/core": "^6.8.0"
   }
 }
