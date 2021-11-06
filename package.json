@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "latest",
+    "prisma": "^3.4.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.4.1"
+  }
+}
