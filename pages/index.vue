@@ -3,13 +3,9 @@
   <Menu/>
 
   <h1>Composition API</h1>
-  <div
-    v-for="{id, title} in posts"
-    :key="id"
-  >
-    {{id}} - {{title}}
+  
+  <Posts :posts="posts"/>
 
-  </div>
 </template>
 
 <script setup>
