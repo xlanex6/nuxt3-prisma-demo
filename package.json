@@ -7,10 +7,10 @@
   },
   "devDependencies": {
     "nuxt3": "latest",
-    "prisma": "^3.4.1"
+    "prisma": "3.11.0"
   },
   "dependencies": {
-    "@prisma/client": "^3.4.1",
-    "@vueuse/core": "^6.8.0"
+    "@prisma/client": "3.11.0",
+    "@vueuse/core": "8.1.2"
   }
 }
